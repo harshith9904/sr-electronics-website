@@ -1,0 +1,948 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>S.R. Electronics &amp; Home Appliances</title>
+<link rel="icon" href="assets/sr-logo.png">
+<meta name="description" content="S.R. Electronics &amp; Home Appliances, Mehdipatnam, Hyderabad: genuine TVs, ACs, refrigerators and washing machines, delivered and installed by our own team.">
+<meta name="theme-color" content="#0A0A0B">
+<meta property="og:type" content="website">
+<meta property="og:title" content="S.R. Electronics &amp; Home Appliances, Mehdipatnam">
+<meta property="og:description" content="TVs, ACs, fridges, washing machines and kitchen appliances. Delivered and installed. Enquire on WhatsApp.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1631679893114-7957e44879db?w=1200&amp;h=630&amp;q=80&amp;auto=format&amp;fit=crop">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ElectronicsStore",
+  "name": "S.R. Electronics & Home Appliances",
+  "telephone": ["+91-95731-62285", "+91-79811-39014"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2, Ground Floor, 13-6-458, Mehdipatnam, beside HP Petrol Pump, Haridas Nagar, Gayatri Nagar, Gudimalkapur",
+    "addressLocality": "Hyderabad",
+    "addressRegion": "Telangana",
+    "postalCode": "500006",
+    "addressCountry": "IN"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "opens": "10:00",
+    "closes": "21:00"
+  },
+  "priceRange": "₹₹"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Sora:wght@200;300;400&family=Hanken+Grotesk:wght@400;500;600;700&family=Archivo+Narrow:wght@500;600;700&display=swap">
+<style>
+/* Dark showroom. One scroll story drives a real-time 3D product scene, then the page opens into
+   a horizontal range gallery, services, a buying timeline, an offers band and the store. */
+:root {
+  --bg: #0A0A0B;
+  --bg-2: #111113;
+  --surface: #17171A;
+  --surface-2: #1E1E22;
+  --line: rgba(244, 241, 236, .12);
+  --line-2: rgba(244, 241, 236, .22);
+  --ink: #F4F1EC;
+  --muted: #A39F98;
+  --red: #E3261C;          /* the logo's red, lifted slightly for dark ground */
+  --red-deep: #8E1510;
+  --ember: #FF6A3D;
+  --f-display: "Instrument Serif", "Times New Roman", serif;
+  --f-num: "Sora", "Helvetica Neue", Arial, sans-serif;
+  --f-body: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --f-label: "Archivo Narrow", "Arial Narrow", Arial, sans-serif;
+  --gl: max(20px, env(safe-area-inset-left, 0px));
+  --gr: max(20px, env(safe-area-inset-right, 0px));
+  --ease: cubic-bezier(.2, .8, .2, 1);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; background: var(--bg); }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.55; overflow-x: clip; -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+::selection { background: var(--red); color: #fff; }
+:focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; }
+.gut { padding-left: var(--gl); padding-right: var(--gr); }
+.wrap { max-width: 1320px; margin: 0 auto; }
+.label { font-family: var(--f-label); font-weight: 600; font-size: 13px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+.label.red { color: var(--red); }
+em { font-style: italic; }
+
+/* grain over everything for a filmic finish */
+body::after { content: ""; position: fixed; inset: -50%; z-index: 90; pointer-events: none; opacity: .055;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation: grain 1.2s steps(6) infinite; }
+@keyframes grain { 0%,100% { transform: translate(0,0) } 20% { transform: translate(-3%,2%) } 40% { transform: translate(2%,-3%) } 60% { transform: translate(-2%,-1%) } 80% { transform: translate(3%,3%) } }
+
+/* ---------- buttons ---------- */
+.btn { position: relative; display: inline-flex; align-items: center; gap: 10px; font-family: var(--f-body); font-weight: 700; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; text-decoration: none; padding: 15px 24px; border-radius: 999px; background: var(--red); color: #fff; border: 0; cursor: pointer; overflow: hidden; isolation: isolate; transition: color .35s var(--ease); }
+.btn::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--ink); border-radius: inherit; transform: translateY(101%); transition: transform .45s var(--ease); }
+.btn:hover::before { transform: translateY(0); }
+.btn:hover { color: var(--bg); }
+.btn.ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1px var(--line-2); }
+.btn .arr { display: inline-block; transition: transform .35s var(--ease); }
+.btn:hover .arr { transform: translateX(4px); }
+.wa-ico { width: 16px; height: 16px; flex: none; }
+
+/* ---------- loader ---------- */
+.loader { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; background: var(--bg); }
+.loader-in { display: grid; justify-items: center; gap: 28px; }
+.loader img { width: min(300px, 64vw); clip-path: inset(0 100% 0 0); }
+.loader-count { font-family: var(--f-num); font-weight: 200; font-size: 14px; letter-spacing: .3em; color: var(--muted); font-variant-numeric: tabular-nums; }
+.loader-bar { width: min(300px, 64vw); height: 1px; background: var(--line); overflow: hidden; }
+.loader-bar i { display: block; height: 100%; width: 100%; background: var(--red); transform-origin: 0 50%; transform: scaleX(0); }
+.wipe { position: fixed; inset: 0; z-index: 99; pointer-events: none; transform: translateY(100%); }
+.wipe.r { background: var(--red); }
+.wipe.d { background: var(--bg-2); }
+
+/* ---------- cursor ---------- */
+.cursor, .cursor-ring { position: fixed; left: 0; top: 0; z-index: 95; pointer-events: none; border-radius: 50%; opacity: 0; }
+.cursor { width: 6px; height: 6px; margin: -3px 0 0 -3px; background: var(--red); }
+.cursor-ring { width: 38px; height: 38px; margin: -19px 0 0 -19px; border: 1px solid rgba(244,241,236,.4); display: grid; place-items: center; transition: width .35s var(--ease), height .35s var(--ease), margin .35s var(--ease), background .35s, border-color .35s; }
+.cursor-ring span { font-family: var(--f-label); font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #fff; opacity: 0; transition: opacity .2s; }
+.cursor-ring.big { width: 92px; height: 92px; margin: -46px 0 0 -46px; background: var(--red); border-color: var(--red); }
+.cursor-ring.big span { opacity: 1; }
+.cursor-ring.link { width: 60px; height: 60px; margin: -30px 0 0 -30px; border-color: var(--ember); }
+@media (hover: hover) and (pointer: fine) {
+  .has-cursor, .has-cursor a, .has-cursor button { cursor: none; }
+  .has-cursor input, .has-cursor label { cursor: auto; }
+}
+
+/* ---------- header ---------- */
+.progress { position: fixed; left: 0; top: 0; height: 2px; width: 100%; z-index: 70; background: var(--red); transform-origin: 0 50%; transform: scaleX(0); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 61; background: var(--bg); }
+.head { position: fixed; top: env(safe-area-inset-top, 0px); left: 0; right: 0; z-index: 60; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 16px; padding-bottom: 16px; transition: transform .5s var(--ease), background .4s; }
+.head.hide { transform: translateY(-110%); }
+.head.solid { background: linear-gradient(rgba(10,10,11,.85), rgba(10,10,11,0)); }
+.head .logo img { height: 50px; width: auto; }
+.nav { display: flex; gap: 4px; padding: 5px; border-radius: 999px; background: rgba(23,23,26,.6); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); box-shadow: inset 0 0 0 1px var(--line); }
+.nav a { font-size: 14px; font-weight: 500; text-decoration: none; padding: 8px 16px; border-radius: 999px; color: var(--muted); transition: color .25s, background .25s; }
+.nav a:hover { color: var(--ink); background: var(--surface-2); }
+.head-r { display: flex; gap: 8px; align-items: center; }
+.head .btn { padding: 12px 18px; }
+.menu-btn { display: none; align-items: center; gap: 10px; font: 600 14px var(--f-body); color: var(--ink); background: var(--surface); border: 0; padding: 12px 16px; border-radius: 999px; box-shadow: inset 0 0 0 1px var(--line); }
+.menu-btn i { display: block; width: 16px; height: 1.5px; background: currentColor; transition: transform .35s var(--ease); }
+.menu-btn i + i { margin-top: 4px; }
+.menu-btn[aria-expanded="true"] i:first-child { transform: translateY(2.75px) rotate(45deg); }
+.menu-btn[aria-expanded="true"] i:last-child { transform: translateY(-2.75px) rotate(-45deg); }
+@media (max-width: 900px) {
+  .nav, .head .btn { display: none; }
+  .menu-btn { display: inline-flex; }
+  .head .logo img { height: 40px; }
+}
+.menu { position: fixed; inset: 0; z-index: 55; background: radial-gradient(ellipse 90% 60% at 85% 0%, rgba(227,38,28,.45), transparent 65%), var(--bg-2); display: grid; align-content: end; gap: 40px; padding-top: 120px; padding-bottom: max(40px, env(safe-area-inset-bottom, 0px)); clip-path: circle(0% at calc(100% - 50px) 40px); transition: clip-path .8s cubic-bezier(.7,0,.2,1); }
+.menu.open { clip-path: circle(150% at calc(100% - 50px) 40px); }
+.menu nav { display: grid; }
+.menu nav a { font-family: var(--f-display); font-size: clamp(48px, 13vw, 110px); line-height: 1; text-decoration: none; border-bottom: 1px solid var(--line); padding-block: 8px; transition: color .25s, padding-left .35s var(--ease); }
+.menu nav a:hover { color: var(--red); padding-left: 12px; }
+.menu-foot { display: grid; gap: 14px; font-size: 15px; }
+
+/* ---------- 3D story ---------- */
+.story { position: relative; height: 900vh; height: 900svh; }
+.story-pin { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; }
+.story-pin::before { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse 60% 50% at 50% 62%, rgba(227,38,28,.22), transparent 70%), radial-gradient(ellipse 80% 60% at 50% 120%, rgba(255,106,61,.16), transparent 70%); }
+.stage { position: absolute; inset: 0; z-index: 1; pointer-events: none; }
+.shot { position: absolute; left: 0; top: 0; margin: 0; visibility: hidden; transform-origin: 50% 50%; will-change: transform; }
+.shot .clip { position: absolute; inset: 0; border-radius: 22px; overflow: hidden; transform: translateZ(0); box-shadow: 0 50px 120px rgba(0,0,0,.65); }
+.shot .clip::after { content: ""; position: absolute; inset: 0; z-index: 3; border-radius: inherit; box-shadow: inset 0 0 0 1px rgba(255,255,255,.08); pointer-events: none; }
+.shot .frame { position: absolute; inset: 0; background: #111; }
+.shot .slide { position: absolute; inset: 0; }
+.shot .ph { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; transform-origin: 50% 50%; }
+.shot .dim { position: absolute; inset: 0; z-index: 2; background: #000; opacity: 0; pointer-events: none; }
+.shot .slide::after { content: ""; z-index: 1; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, rgba(10,10,11,.45) 0%, rgba(10,10,11,0) 30%, rgba(10,10,11,0) 62%, rgba(10,10,11,.55) 100%), radial-gradient(ellipse 80% 80% at 50% 50%, transparent 60%, rgba(0,0,0,.35)); }
+.shot .amb { position: absolute; left: 6%; top: 10%; width: 88%; height: 84%; max-width: none; object-fit: cover; filter: blur(70px) saturate(1.7); opacity: 0; transform: scale(1.12); }
+.sheen { position: absolute; top: -30%; bottom: -30%; left: 0; width: 28%; z-index: 1; opacity: 0; background: linear-gradient(100deg, transparent 0%, rgba(255,255,255,.08) 35%, rgba(255,255,255,.28) 50%, rgba(255,255,255,.08) 65%, transparent 100%); mix-blend-mode: screen; transform: translateX(-160%) skewX(-14deg); }
+.hero-copy { position: absolute; left: 0; right: 0; top: calc(env(safe-area-inset-top, 0px) + 96px); text-align: center; z-index: 2; display: grid; justify-items: center; gap: 14px; }
+.hero-copy h1 { margin: 0; font-family: var(--f-display); font-weight: 400; font-size: clamp(56px, 10.5vw, 176px); line-height: .86; letter-spacing: -.03em; }
+.hero-copy h1 em { color: var(--red); }
+.split-line { display: block; overflow: hidden; padding-bottom: .06em; }
+.ch { display: inline-block; }
+.hero-foot { position: absolute; left: 0; right: 0; bottom: max(26px, env(safe-area-inset-bottom, 0px)); z-index: 2; display: flex; justify-content: space-between; align-items: end; gap: 20px; }
+.hero-foot p { margin: 0; max-width: 36ch; color: var(--ink); font-size: 15px; text-shadow: 0 1px 2px rgba(0,0,0,.9), 0 0 18px rgba(0,0,0,.95), 0 0 36px rgba(0,0,0,.8); }
+.hero-ctas { display: flex; gap: 10px; flex-wrap: wrap; }
+.scroll-cue { display: grid; justify-items: center; gap: 8px; font-family: var(--f-label); font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+.scroll-cue i { width: 1px; height: 40px; background: linear-gradient(var(--red), transparent); animation: cue 1.8s var(--ease) infinite; transform-origin: 0 0; }
+@keyframes cue { 0% { transform: scaleY(0) } 50% { transform: scaleY(1) } 100% { transform: scaleY(1); opacity: 0 } }
+@media (max-width: 760px) { .hero-foot { flex-direction: column; align-items: start; } .scroll-cue { display: none; } }
+
+.stats { position: absolute; left: 0; right: 0; bottom: 9vh; z-index: 2; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(12px, 3vw, 40px); opacity: 0; pointer-events: none; }
+.stats > div { border-top: 1px solid var(--line-2); padding-top: 14px; min-width: 0; }
+.stats b { display: block; font-family: var(--f-num); font-weight: 200; font-size: clamp(28px, 6.4vw, 100px); line-height: 1; color: var(--ink); letter-spacing: -.03em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.stats b sup { color: var(--red); font-size: .5em; vertical-align: .55em; margin-left: 2px; }
+.stats span { display: block; margin-top: 8px; font-family: var(--f-display); font-size: clamp(17px, 2vw, 26px); line-height: 1.1; color: var(--muted); }
+
+.chap { position: absolute; z-index: 3; left: 0; top: 50%; width: min(560px, 46vw); transform: translateY(-50%); display: grid; gap: 18px; opacity: 0; pointer-events: none; }
+.chap.on { pointer-events: auto; }
+.chap .num { font-family: var(--f-num); font-weight: 200; font-size: 15px; color: var(--muted); letter-spacing: .2em; }
+.chap .num b { color: var(--red); font-weight: 400; }
+.chap h2 { margin: 0; font-family: var(--f-display); font-weight: 400; font-size: clamp(54px, 7.4vw, 124px); line-height: .88; letter-spacing: -.03em; }
+.chap h2 em { color: var(--red); }
+.chap p { margin: 0; color: var(--muted); max-width: 40ch; }
+.chap .meta { display: flex; flex-wrap: wrap; gap: 6px; }
+.chap .meta span { font-size: 12px; font-weight: 600; letter-spacing: .04em; padding: 6px 12px; border-radius: 999px; box-shadow: inset 0 0 0 1px var(--line-2); color: var(--ink); }
+.chap .buy { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 24px; margin-top: 6px; }
+.from { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.from b { display: block; margin-top: 4px; font-family: var(--f-num); font-weight: 300; font-size: clamp(30px, 3vw, 44px); letter-spacing: -.02em; color: var(--ink); text-transform: none; }
+@media (max-width: 760px) {
+  .chap { top: auto; bottom: max(22px, env(safe-area-inset-bottom, 0px)); transform: none; width: auto; right: 0; gap: 12px; }
+  .chap h2 { font-size: clamp(46px, 13vw, 64px); }
+  .chap p { display: none; }
+  .from b { font-size: 28px; }
+}
+.rail { position: absolute; left: var(--gl); bottom: 28px; z-index: 3; display: flex; gap: 22px; opacity: 0; }
+.rail a { display: flex; flex-direction: column; align-items: start; gap: 8px; cursor: pointer; text-decoration: none; font-family: var(--f-label); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); transition: color .3s; }
+.rail a i { display: block; width: 18px; height: 1px; background: currentColor; transition: width .4s var(--ease); }
+.rail a.on { color: var(--ink); }
+.rail a i { order: -1; }
+.rail a.on i { width: 44px; background: var(--red); }
+@media (max-width: 760px) { .rail { display: none; } }
+
+
+/* ---------- marquee band ---------- */
+.band { position: relative; z-index: 2; background: var(--red); color: #fff; transform: rotate(-2.2deg) scale(1.04); margin-block: 6vh; overflow: hidden; }
+.band .track { display: inline-flex; white-space: nowrap; padding-block: 18px; font-family: var(--f-label); font-weight: 700; text-transform: uppercase; font-size: clamp(26px, 4.4vw, 64px); line-height: 1; }
+.band .track span { display: inline-flex; align-items: center; gap: .5em; padding-right: .5em; }
+.band .track span::after { content: "✦"; font-size: .5em; }
+
+/* ---------- section headings ---------- */
+.sec-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 48px; }
+.sec-head h2 { margin: 12px 0 0; font-family: var(--f-display); font-weight: 400; font-size: clamp(48px, 7.6vw, 128px); line-height: .9; letter-spacing: -.03em; text-wrap: balance; }
+.sec-head h2 em { color: var(--red); }
+.sec-head p { margin: 0; max-width: 40ch; color: var(--muted); }
+.w { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: .08em; margin-bottom: -.08em; }
+.w > span { display: inline-block; }
+
+/* ---------- range: horizontal gallery ---------- */
+.range { position: relative; padding-top: 10vh; overflow: hidden; }
+.range-pin { min-height: 100vh; min-height: 100svh; display: grid; grid-template-columns: minmax(0, 1fr); align-content: center; gap: 28px; padding-block: 90px 30px; }
+.range .sec-head { margin-bottom: 0; }
+.track-h { display: flex; gap: 20px; width: max-content; padding-left: var(--gl); padding-right: var(--gr); will-change: transform; }
+.card { position: relative; width: clamp(270px, 30vw, 420px); flex: none; border-radius: 22px; background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); overflow: hidden; display: grid; grid-template-rows: auto 1fr; transition: transform .5s var(--ease), box-shadow .4s; }
+.card:hover { transform: translateY(-8px); box-shadow: inset 0 0 0 1px var(--line-2), 0 30px 60px rgba(0,0,0,.5); }
+.card-img { position: relative; aspect-ratio: 4 / 3.4; overflow: hidden; background: #222; }
+.card-img img { position: absolute; top: -4%; left: -10%; width: 120%; height: 108%; max-width: none; object-fit: cover; filter: saturate(.85) brightness(.9); transition: filter .5s; }
+.card:hover .card-img img { filter: saturate(1.05) brightness(1); }
+.card-img::after { content: ""; position: absolute; inset: 0; background: linear-gradient(transparent 55%, rgba(10,10,11,.75)); }
+.card .badge { position: absolute; left: 14px; top: 14px; z-index: 1; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 6px 11px; border-radius: 999px; background: rgba(10,10,11,.6); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+.card .idx { position: absolute; right: 16px; top: 12px; z-index: 1; font-family: var(--f-num); font-weight: 200; font-size: 13px; color: rgba(255,255,255,.75); }
+.card-body { padding: 20px 22px 22px; display: grid; gap: 6px; align-content: start; }
+.card h3 { margin: 0; font-family: var(--f-display); font-weight: 400; font-size: 34px; line-height: 1; }
+.card .meta { font-size: 14px; color: var(--muted); }
+.card .row { display: flex; justify-content: space-between; align-items: end; gap: 12px; margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); }
+.card .price { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.card .price b { display: block; margin-top: 2px; font-family: var(--f-num); font-weight: 300; font-size: 26px; letter-spacing: -.02em; color: var(--ink); text-transform: none; }
+.card .enq { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; text-decoration: none; padding: 11px 16px; border-radius: 999px; background: var(--red); color: #fff; transition: background .3s; }
+.card .enq:hover { background: var(--ember); }
+.range-note { font-size: 13px; color: var(--muted); }
+@media (max-height: 820px) {
+  .range-pin { gap: 18px; padding-top: 80px; }
+  .range .sec-head h2 { font-size: clamp(40px, 6vw, 84px); }
+  .range .sec-head p { display: none; }
+  .card-img { aspect-ratio: 16 / 10; }
+}
+.range-progress { height: 1px; background: var(--line); position: relative; }
+.range-progress i { position: absolute; inset: 0; background: var(--red); transform-origin: 0 50%; transform: scaleX(0); }
+.swipe-hint { display: none; }
+/* phones: native swipe row instead of the pinned sideways scroll */
+.lite .range { padding-top: 12vh; }
+.lite .range-pin { min-height: 0; padding-block: 0 10px; gap: 22px; }
+.lite .track-h { width: auto; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-left: var(--gl); -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 6px; will-change: auto; }
+.lite .track-h::-webkit-scrollbar { display: none; }
+.lite .card { width: min(78vw, 340px); scroll-snap-align: start; }
+.lite .swipe-hint { display: inline-flex; align-items: center; gap: 8px; font-family: var(--f-label); font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.lite .swipe-hint i { display: inline-block; animation: nudge 1.6s var(--ease) infinite; font-style: normal; color: var(--red); }
+@keyframes nudge { 0%, 100% { transform: translateX(0) } 50% { transform: translateX(6px) } }
+
+/* ---------- services ---------- */
+.services { padding-block: 16vh 12vh; }
+.svc-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 1000px) { .svc-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .svc-grid { grid-template-columns: 1fr; } }
+.svc { --mx: 50%; --my: 50%; position: relative; min-height: 340px; padding: 26px; border-radius: 22px; background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); display: grid; align-content: space-between; gap: 30px; overflow: hidden; isolation: isolate; }
+.svc::before { content: ""; position: absolute; inset: 0; z-index: -1; opacity: 0; transition: opacity .4s; background: radial-gradient(360px circle at var(--mx) var(--my), rgba(227,38,28,.35), transparent 60%); }
+.svc:hover::before { opacity: 1; }
+.svc svg { width: 44px; height: 44px; stroke: var(--red); fill: none; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+.svc h3 { margin: 0 0 8px; font-family: var(--f-display); font-weight: 400; font-size: 38px; line-height: 1; }
+.svc p { margin: 0; color: var(--muted); font-size: 15px; }
+.svc .tag { position: absolute; right: 22px; top: 24px; font-family: var(--f-label); font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+@media (max-width: 560px) { .svc { min-height: 0; } }
+
+/* ---------- how it works ---------- */
+.how { padding-block: 10vh 14vh; }
+.steps { position: relative; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; padding-top: 44px; }
+.steps-line { position: absolute; left: 0; right: 0; top: 6px; height: 1px; background: var(--line); }
+.steps-line i { position: absolute; inset: 0; background: linear-gradient(90deg, var(--red), var(--ember)); transform-origin: 0 50%; transform: scaleX(0); }
+.step { position: relative; display: grid; gap: 10px; align-content: start; }
+.step::before { content: ""; position: absolute; top: -44px; left: 0; width: 13px; height: 13px; border-radius: 50%; background: var(--bg); box-shadow: inset 0 0 0 1px var(--line-2); transition: background .4s, box-shadow .4s; }
+.step.lit::before { background: var(--red); box-shadow: 0 0 0 6px rgba(227,38,28,.18); }
+.step .n { font-family: var(--f-num); font-weight: 200; font-size: 56px; line-height: 1; color: var(--line-2); transition: color .4s; }
+.step.lit .n { color: var(--ink); }
+.step h3 { margin: 0; font-family: var(--f-display); font-weight: 400; font-size: 32px; line-height: 1; }
+.step p { margin: 0; color: var(--muted); font-size: 15px; max-width: 30ch; }
+@media (max-width: 860px) {
+  .steps { grid-template-columns: 1fr; padding-top: 0; padding-left: 40px; gap: 36px; }
+  .steps-line { left: 6px; right: auto; top: 0; bottom: 0; width: 1px; height: auto; }
+  .steps-line i { background: linear-gradient(var(--red), var(--ember)); transform-origin: 50% 0; }
+  .step::before { top: 8px; left: -40px; }
+}
+
+/* ---------- offer band ---------- */
+.offer { position: relative; margin-left: var(--gl); margin-right: var(--gr); border-radius: 28px; overflow: hidden; background: radial-gradient(ellipse 70% 90% at 80% 20%, var(--ember), transparent 60%), radial-gradient(ellipse 80% 80% at 10% 100%, var(--red-deep), transparent 70%), var(--red); padding: clamp(36px, 7vw, 100px) clamp(24px, 6vw, 90px); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 30px; align-items: center; }
+.offer h2 { margin: 12px 0 0; font-family: var(--f-display); font-weight: 400; font-size: clamp(46px, 7.4vw, 120px); line-height: .9; letter-spacing: -.03em; color: #fff; text-wrap: balance; }
+.offer p { margin: 18px 0 0; max-width: 44ch; color: rgba(255,255,255,.88); }
+.orb { width: clamp(150px, 15vw, 210px); aspect-ratio: 1; border-radius: 50%; background: var(--bg); color: var(--ink); display: grid; place-items: center; text-align: center; text-decoration: none; font-weight: 700; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; box-shadow: 0 30px 60px rgba(0,0,0,.35); transition: background .3s, color .3s; }
+.orb:hover { background: var(--ink); color: var(--bg); }
+.orb span { display: grid; justify-items: center; gap: 8px; }
+.orb svg { width: 28px; height: 28px; }
+@media (max-width: 760px) { .offer { grid-template-columns: 1fr; } }
+
+/* ---------- visit ---------- */
+.visit { padding-block: 16vh 10vh; }
+.visit-grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 20px; }
+@media (max-width: 900px) { .visit-grid { grid-template-columns: 1fr; } }
+.store { border-radius: 22px; background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); padding: clamp(24px, 3vw, 40px); display: grid; gap: 22px; align-content: start; }
+.store-name { font-family: var(--f-display); font-size: clamp(30px, 3vw, 42px); line-height: 1; }
+.store address { font-style: normal; font-size: 17px; line-height: 1.55; }
+.facts { margin: 0; display: grid; }
+.facts div { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 12px; padding-block: 12px; border-top: 1px solid var(--line); }
+.facts dt { font-family: var(--f-label); font-size: 12px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); padding-top: 2px; }
+.facts dd { margin: 0; }
+.facts a { text-decoration: none; border-bottom: 1px solid var(--line-2); }
+.store-acts { display: flex; flex-wrap: wrap; gap: 10px; }
+.map { position: relative; min-height: 420px; border-radius: 22px; overflow: hidden; box-shadow: inset 0 0 0 1px var(--line); background: var(--surface); }
+.map iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; filter: invert(.9) hue-rotate(180deg) saturate(.6) brightness(.95) contrast(.95); }
+.map .pin { position: absolute; left: 16px; bottom: 16px; z-index: 1; font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 8px 12px; border-radius: 999px; background: var(--red); color: #fff; }
+
+/* ---------- footer ---------- */
+.foot { position: relative; padding-block: 10vh 30px; overflow: hidden; border-top: 1px solid var(--line); }
+.foot-big { font-family: var(--f-display); font-size: clamp(120px, 30vw, 460px); line-height: .8; letter-spacing: -.05em; color: transparent; -webkit-text-stroke: 1px rgba(244,241,236,.2); text-align: center; white-space: nowrap; user-select: none; }
+.foot-big em { -webkit-text-stroke: 1px rgba(227,38,28,.75); }
+.foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 36px; margin-top: 60px; font-size: 15px; }
+@media (max-width: 860px) { .foot-grid { grid-template-columns: 1fr; } }
+.foot-grid h4 { margin: 0 0 12px; font-family: var(--f-label); font-size: 12px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+.foot-grid ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.foot-grid a { text-decoration: none; color: var(--ink); transition: color .25s; }
+.foot-grid a:hover { color: var(--red); }
+.news { display: grid; gap: 12px; }
+.news p { margin: 0; color: var(--muted); }
+.news .field { display: flex; gap: 8px; border-bottom: 1px solid var(--line-2); padding-bottom: 8px; }
+.news input[type=email] { flex: 1; min-width: 0; border: 0; background: transparent; color: var(--ink); font: inherit; font-size: 17px; padding: 8px 0; outline: none; }
+.news input::placeholder { color: var(--muted); }
+.news button { border: 0; background: none; font: inherit; font-weight: 700; color: var(--red); cursor: pointer; text-transform: uppercase; font-size: 13px; letter-spacing: .08em; }
+.news label { display: flex; gap: 10px; align-items: start; font-size: 13px; color: var(--muted); }
+.news input[type=checkbox] { accent-color: var(--red); margin-top: 3px; }
+.news .msg { font-size: 13px; color: var(--ember); min-height: 1.4em; }
+.legal { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; margin-top: 50px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+.legal img { height: 56px; width: auto; }
+
+/* ---------- light mode for phones and tablets ---------- */
+.lite body::after { display: none; }
+.lite .sheen { mix-blend-mode: normal; }
+.lite .shot .clip { box-shadow: 0 24px 50px rgba(0,0,0,.55); }
+.lite .nav, .lite .card .badge { backdrop-filter: none; -webkit-backdrop-filter: none; background: rgba(10,10,11,.8); }
+.lite .map iframe { filter: none; }
+.lite .card:hover { transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  body::after { animation: none; }
+  .loader, .wipe { display: none; }
+  .scroll-cue i { animation: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- intro -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-in">
+    <img src="assets/sr-logo-dark.png" alt="" id="loader-logo">
+    <div class="loader-bar"><i id="loader-bar"></i></div>
+    <div class="loader-count" id="loader-count">000</div>
+  </div>
+</div>
+<div class="wipe r" id="wipe-r"></div>
+<div class="wipe d" id="wipe-d"></div>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"><span id="cursor-label">Enquire</span></div>
+<div class="progress" id="progress"></div>
+
+<header class="head gut" id="head">
+  <a class="logo" href="#top" aria-label="S.R. Electronics &amp; Home Appliances, back to top"><img src="assets/sr-logo-dark.png" alt="S.R. Electronics &amp; Home Appliances" width="915" height="432"></a>
+  <nav class="nav" aria-label="Main">
+    <a href="#range">Range</a>
+    <a href="#services">Services</a>
+    <a href="#how">How it works</a>
+    <a href="#visit">Visit</a>
+  </nav>
+  <div class="head-r">
+    <a class="btn magnetic" data-enquire="" data-cursor="Chat"><svg class="wa-ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg>WhatsApp us</a>
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="menu"><span id="menu-label">Menu</span><span aria-hidden="true"><i></i><i></i></span></button>
+  </div>
+</header>
+
+<div class="menu gut" id="menu" aria-hidden="true">
+  <nav aria-label="Menu">
+    <a href="#range">Range</a>
+    <a href="#services">Services</a>
+    <a href="#how">How it works</a>
+    <a href="#visit">Visit the store</a>
+  </nav>
+  <div class="menu-foot">
+    <a class="btn" data-enquire="" style="justify-self:start">WhatsApp us <span class="arr">→</span></a>
+    <span>Call <a href="tel:+919573162285">+91 95731 62285</a> or <a href="tel:+917981139014">079811 39014</a> · Mehdipatnam, Hyderabad · 10 am – 9 pm</span>
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- 1 · The 3D story: hero + four products -->
+  <section class="story" id="story" aria-label="Introduction and featured products">
+    <div class="story-pin">
+      <div class="stage" id="stage">
+        <figure class="shot" data-i="0"><img class="amb" data-src="https://images.unsplash.com/photo-1593784991251-92ded75ea290?w=400&q=80&auto=format&fit=crop" alt="" aria-hidden="true"><div class="clip"><div class="frame"><div class="slide"><img class="ph" src="https://images.unsplash.com/photo-1593784991251-92ded75ea290?w=1100&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1593784991251-92ded75ea290?w=700&q=80&auto=format&fit=crop 700w, https://images.unsplash.com/photo-1593784991251-92ded75ea290?w=1100&q=80&auto=format&fit=crop 1100w, https://images.unsplash.com/photo-1593784991251-92ded75ea290?w=1600&q=80&auto=format&fit=crop 1600w" sizes="(max-width: 760px) 92vw, 52vw" alt="Smart TV showing the Earth on a wooden media unit" decoding="async" fetchpriority="high"><i class="sheen"></i><i class="dim"></i></div></div></div></figure>
+        <figure class="shot" data-i="1"><img class="amb" data-src="https://images.unsplash.com/photo-1643356472833-5b1f2cd4ca3c?w=400&q=80&auto=format&fit=crop" alt="" aria-hidden="true"><div class="clip"><div class="frame"><div class="slide"><img class="ph" src="https://images.unsplash.com/photo-1643356472833-5b1f2cd4ca3c?w=1100&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1643356472833-5b1f2cd4ca3c?w=700&q=80&auto=format&fit=crop 700w, https://images.unsplash.com/photo-1643356472833-5b1f2cd4ca3c?w=1100&q=80&auto=format&fit=crop 1100w, https://images.unsplash.com/photo-1643356472833-5b1f2cd4ca3c?w=1600&q=80&auto=format&fit=crop 1600w" sizes="(max-width: 760px) 92vw, 52vw" alt="Stainless steel refrigerator with a recessed handle" decoding="async"><i class="sheen"></i><i class="dim"></i></div></div></div></figure>
+        <figure class="shot" data-i="2"><img class="amb" data-src="https://images.unsplash.com/photo-1762341123870-d706f257a12e?w=400&q=80&auto=format&fit=crop" alt="" aria-hidden="true"><div class="clip"><div class="frame"><div class="slide"><img class="ph" src="https://images.unsplash.com/photo-1762341123870-d706f257a12e?w=1100&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1762341123870-d706f257a12e?w=700&q=80&auto=format&fit=crop 700w, https://images.unsplash.com/photo-1762341123870-d706f257a12e?w=1100&q=80&auto=format&fit=crop 1100w, https://images.unsplash.com/photo-1762341123870-d706f257a12e?w=1600&q=80&auto=format&fit=crop 1600w" sizes="(max-width: 760px) 92vw, 52vw" alt="White split air conditioner, close up" decoding="async"><i class="sheen"></i><i class="dim"></i></div></div></div></figure>
+        <figure class="shot" data-i="3"><img class="amb" data-src="https://images.unsplash.com/photo-1662220984920-3bd1f88e846f?w=400&q=80&auto=format&fit=crop" alt="" aria-hidden="true"><div class="clip"><div class="frame"><div class="slide"><img class="ph" src="https://images.unsplash.com/photo-1662220984920-3bd1f88e846f?w=1100&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1662220984920-3bd1f88e846f?w=700&q=80&auto=format&fit=crop 700w, https://images.unsplash.com/photo-1662220984920-3bd1f88e846f?w=1100&q=80&auto=format&fit=crop 1100w, https://images.unsplash.com/photo-1662220984920-3bd1f88e846f?w=1600&q=80&auto=format&fit=crop 1600w" sizes="(max-width: 760px) 92vw, 52vw" alt="Front-load washing machine drum, close up" decoding="async"><i class="sheen"></i><i class="dim"></i></div></div></div></figure>
+      </div>
+
+      <div class="hero-copy gut" id="hero-copy">
+        <span class="label red">Mehdipatnam · Hyderabad</span>
+        <h1 id="hero-title"><span class="split-line">See the</span><span class="split-line"><em>Difference</em></span></h1>
+      </div>
+      <div class="hero-foot gut" id="hero-foot">
+        <div style="display:grid;gap:18px">
+          <p>TVs, ACs, refrigerators and washing machines. Genuine stock, delivered and installed by our own team.</p>
+          <div class="hero-ctas"><a class="btn magnetic" href="#range" data-cursor="Explore">Explore the range <span class="arr">→</span></a><a class="btn ghost magnetic" data-enquire="" data-cursor="Chat">Enquire on WhatsApp</a></div>
+        </div>
+        <span class="scroll-cue"><i></i>Scroll</span>
+      </div>
+
+      <div class="stats gut" id="stats">
+        <div><b data-n="5" data-d="1">5.0</b><span>Google rating</span></div>
+        <div><b data-n="1000" data-sup="+">1,000<sup>+</sup></b><span>happy homes</span></div>
+        <div><b data-n="98" data-sup="″">98<sup>″</sup></b><span>TVs up to 98 inches</span></div>
+      </div>
+
+      <article class="chap gut" data-i="0">
+        <span class="num"><b>01</b> / 04 · Televisions</span>
+        <h2>Cinema,<br><em>at home.</em></h2>
+        <p>Every size from a bedroom 32″ to a 98″ wall. Watch them side by side in our demo room, then we mount yours.</p>
+        <div class="meta"><span>32″ to 98″</span><span>LED, 4K &amp; QLED</span><span>Free wall mounting</span></div>
+        <div class="buy"><span class="from">Starting from<b>₹9,000</b></span><a class="btn magnetic" data-enquire="Smart TVs" data-cursor="Enquire">Enquire <span class="arr">→</span></a></div>
+      </article>
+      <article class="chap gut" data-i="1">
+        <span class="num"><b>02</b> / 04 · Refrigerators</span>
+        <h2>Fresh,<br><em>for longer.</em></h2>
+        <p>Single door, double door and side-by-side. Bring your old fridge in exchange and pay less today.</p>
+        <div class="meta"><span>Single to side-by-side</span><span>Exchange offer</span><span>Delivered &amp; installed</span></div>
+        <div class="buy"><span class="from">Starting from<b>₹11,990</b></span><a class="btn magnetic" data-enquire="Refrigerators" data-cursor="Enquire">Enquire <span class="arr">→</span></a></div>
+      </article>
+      <article class="chap gut" data-i="2">
+        <span class="num"><b>03</b> / 04 · Air conditioners</span>
+        <h2>Cool,<br><em>quietly.</em></h2>
+        <p>Inverter split ACs from 1 to 2 ton. We visit your home first, suggest the right size, and install it.</p>
+        <div class="meta"><span>1 to 2 ton</span><span>Installation included</span><span>Free home visit</span></div>
+        <div class="buy"><span class="from">Starting from<b>₹25,990</b></span><a class="btn magnetic" data-enquire="Air conditioners" data-cursor="Enquire">Enquire <span class="arr">→</span></a></div>
+      </article>
+      <article class="chap gut" data-i="3">
+        <span class="num"><b>04</b> / 04 · Washing machines</span>
+        <h2>Laundry,<br><em>sorted.</em></h2>
+        <p>Semi-automatic, top load and front load. Delivered to your door and connected by our technicians.</p>
+        <div class="meta"><span>Semi &amp; fully automatic</span><span>Top &amp; front load</span><span>Installed</span></div>
+        <div class="buy"><span class="from">Starting from<b>₹7,990</b></span><a class="btn magnetic" data-enquire="Washing machines" data-cursor="Enquire">Enquire <span class="arr">→</span></a></div>
+      </article>
+
+      <nav class="rail" id="rail" aria-label="Featured products">
+        <a data-i="0">TVs<i></i></a><a data-i="1">Fridges<i></i></a><a data-i="2">ACs<i></i></a><a data-i="3">Washers<i></i></a>
+      </nav>
+    </div>
+  </section>
+
+  <div class="band" aria-hidden="true"><div class="track" id="band-track"><span>Genuine stock</span><span>Delivered</span><span>Installed</span><span>Easy EMI</span><span>Exchange offers</span><span>Genuine stock</span><span>Delivered</span><span>Installed</span><span>Easy EMI</span><span>Exchange offers</span></div></div>
+
+  <!-- 2 · Range: horizontal gallery -->
+  <section class="range" id="range" aria-label="Our range">
+    <div class="range-pin" id="range-pin">
+      <div class="sec-head gut wrap" style="width:100%">
+        <div><span class="label red">Our range</span><h2 data-split>Everything for <em>home.</em></h2></div>
+        <p>Prices start where shown and depend on brand and model. Tap Enquire and we reply on WhatsApp with what’s in stock and today’s best price.</p>
+      </div>
+      <div class="track-h" id="track-h">
+        <article class="card" data-cursor="Enquire"><div class="card-img"><img data-par src="https://images.unsplash.com/photo-1593784991251-92ded75ea290?w=900&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1593784991251-92ded75ea290?w=600&q=80&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1593784991251-92ded75ea290?w=900&q=80&auto=format&fit=crop 900w" sizes="(max-width: 760px) 80vw, 30vw" decoding="async" alt="Smart TV on a wooden media unit" loading="lazy"><span class="badge">Free mounting</span><span class="idx">01</span></div><div class="card-body"><h3>Smart TVs</h3><span class="meta">32″ to 98″ · LED, 4K &amp; QLED</span><div class="row"><span class="price">Starting from<b>₹9,000</b></span><a class="enq" data-enquire="Smart TVs">Enquire</a></div></div></article>
+        <article class="card" data-cursor="Enquire"><div class="card-img"><img data-par src="https://images.unsplash.com/photo-1604914416956-38b08c516877?w=900&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1604914416956-38b08c516877?w=600&q=80&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1604914416956-38b08c516877?w=900&q=80&auto=format&fit=crop 900w" sizes="(max-width: 760px) 80vw, 30vw" decoding="async" alt="TV and soundbar on a wooden table" loading="lazy"><span class="badge">Hear it in store</span><span class="idx">02</span></div><div class="card-body"><h3>Soundbars &amp; speakers</h3><span class="meta">Home theatre, party, portable</span><div class="row"><span class="price">Starting from<b>₹1,999</b></span><a class="enq" data-enquire="Soundbars and speakers">Enquire</a></div></div></article>
+        <article class="card" data-cursor="Enquire"><div class="card-img"><img data-par src="https://images.unsplash.com/photo-1762341123870-d706f257a12e?w=900&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1762341123870-d706f257a12e?w=600&q=80&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1762341123870-d706f257a12e?w=900&q=80&auto=format&fit=crop 900w" sizes="(max-width: 760px) 80vw, 30vw" decoding="async" alt="White split air conditioner" loading="lazy"><span class="badge">Installed</span><span class="idx">03</span></div><div class="card-body"><h3>Air conditioners</h3><span class="meta">1 to 2 ton · inverter split</span><div class="row"><span class="price">Starting from<b>₹25,990</b></span><a class="enq" data-enquire="Air conditioners">Enquire</a></div></div></article>
+        <article class="card" data-cursor="Enquire"><div class="card-img"><img data-par src="https://images.unsplash.com/photo-1721563927724-74b1a0ddef33?w=900&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1721563927724-74b1a0ddef33?w=600&q=80&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1721563927724-74b1a0ddef33?w=900&q=80&auto=format&fit=crop 900w" sizes="(max-width: 760px) 80vw, 30vw" decoding="async" alt="White refrigerator" loading="lazy"><span class="badge">Exchange offer</span><span class="idx">04</span></div><div class="card-body"><h3>Refrigerators</h3><span class="meta">Single, double &amp; side-by-side</span><div class="row"><span class="price">Starting from<b>₹11,990</b></span><a class="enq" data-enquire="Refrigerators">Enquire</a></div></div></article>
+        <article class="card" data-cursor="Enquire"><div class="card-img"><img data-par src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=900&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=600&q=80&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=900&q=80&auto=format&fit=crop 900w" sizes="(max-width: 760px) 80vw, 30vw" decoding="async" alt="White front-load washing machine" loading="lazy"><span class="badge">Installed</span><span class="idx">05</span></div><div class="card-body"><h3>Washing machines</h3><span class="meta">Semi-automatic, top &amp; front load</span><div class="row"><span class="price">Starting from<b>₹7,990</b></span><a class="enq" data-enquire="Washing machines">Enquire</a></div></div></article>
+        <article class="card" data-cursor="Enquire"><div class="card-img"><img data-par src="https://images.unsplash.com/photo-1585659722983-3a675dabf23d?w=900&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1585659722983-3a675dabf23d?w=600&q=80&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1585659722983-3a675dabf23d?w=900&q=80&auto=format&fit=crop 900w" sizes="(max-width: 760px) 80vw, 30vw" decoding="async" alt="White microwave oven" loading="lazy"><span class="badge">Live demo</span><span class="idx">06</span></div><div class="card-body"><h3>Microwaves &amp; kitchen</h3><span class="meta">Solo, grill &amp; convection</span><div class="row"><span class="price">Starting from<b>₹4,990</b></span><a class="enq" data-enquire="Microwave ovens and kitchen appliances">Enquire</a></div></div></article>
+      </div>
+      <div class="gut wrap" style="width:100%;display:grid;gap:14px">
+        <span class="swipe-hint">Swipe to see more <i>→</i></span>
+        <div class="range-progress"><i id="range-bar"></i></div>
+        <span class="range-note">Starting prices reflect current market entry prices and vary by brand, size and model. Photos are for illustration.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 · Services -->
+  <section class="services gut" id="services" aria-label="Services">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><span class="label red">Why S.R.</span><h2 data-split>More than a <em>shop.</em></h2></div>
+        <p>We help you choose the right thing at the right price, then deliver it and set it up properly in your home.</p>
+      </div>
+      <div class="svc-grid">
+        <div class="svc rise"><span class="tag">Included</span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M30 8a8 8 0 0 0-7.6 10.4L9 31.8a3.4 3.4 0 0 0 4.8 4.8l13.4-13.4A8 8 0 0 0 38 16l-5 1-2-2 1-5Z"/></svg><div><h3>Free installation</h3><p>Our own technicians install ACs, TVs, washers and more at your home.</p></div></div>
+        <div class="svc rise"><span class="tag">In store</span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 18h26l-6-6M38 30H12l6 6"/></svg><div><h3>Exchange</h3><p>Bring your old TV or appliance and pay less on the new one today.</p></div></div>
+        <div class="svc rise"><span class="tag">At checkout</span><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="12" width="36" height="24" rx="4"/><path d="M6 19h36M12 29h8"/></svg><div><h3>Easy EMI</h3><p>No-cost EMI on major cards, plus finance options in store.</p></div></div>
+        <div class="svc rise"><span class="tag">Free</span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 22 24 9l16 13v17H8Z"/><path d="M20 39V28h8v11"/></svg><div><h3>Home visit</h3><p>Before you buy an AC or large appliance, we measure the room and suggest the right size.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 · How buying works -->
+  <section class="how gut" id="how" aria-label="How buying works">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><span class="label red">How it works</span><h2 data-split>Four steps, <em>no stress.</em></h2></div>
+      </div>
+      <div class="steps" id="steps">
+        <div class="steps-line"><i id="steps-line"></i></div>
+        <div class="step"><span class="n">01</span><h3>Enquire</h3><p>Message us on WhatsApp. We reply with the models in stock and today’s price.</p></div>
+        <div class="step"><span class="n">02</span><h3>See it in store</h3><p>Compare models side by side at our Mehdipatnam showroom.</p></div>
+        <div class="step"><span class="n">03</span><h3>Delivered</h3><p>We bring it to your home, carefully packed.</p></div>
+        <div class="step"><span class="n">04</span><h3>Installed</h3><p>Our technicians set it up and show you how everything works.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 · Offers -->
+  <section class="offer" aria-label="Offers">
+    <div>
+      <span class="label" style="color:rgba(255,255,255,.85)">This month</span>
+      <h2 data-split>Ask us about this month’s offers.</h2>
+      <p>Festive deals, exchange bonuses and bank offers change often. Send us a message and we’ll tell you what applies today.</p>
+    </div>
+    <a class="orb magnetic" data-enquire="this month’s offers" data-cursor="Chat"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Z"/></svg>Ask on<br>WhatsApp</span></a>
+  </section>
+
+  <!-- 6 · Visit -->
+  <section class="visit gut" id="visit" aria-label="Visit the store">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><span class="label red">Visit us in Mehdipatnam</span><h2 data-split>Come say <em>hello.</em></h2></div>
+      </div>
+      <div class="visit-grid">
+        <div class="store rise">
+          <span class="store-name">S.R. Electronics &amp; Home Appliances</span>
+          <address>2, Ground Floor, 13-6-458, Mehdipatnam<br>Beside HP Petrol Pump, Haridas Nagar, Gayatri Nagar<br>Gudimalkapur, Hyderabad, Telangana 500006</address>
+          <dl class="facts">
+            <div><dt>Phone</dt><dd><a href="tel:+919573162285">+91 95731 62285</a><br><a href="tel:+917981139014">079811 39014</a></dd></div>
+            <div><dt>Hours</dt><dd>Open daily, 10 am – 9 pm</dd></div>
+            <div><dt>Google</dt><dd>★ 5.0 rating</dd></div>
+          </dl>
+          <div class="store-acts">
+            <a class="btn magnetic" href="https://www.google.com/maps/search/?api=1&amp;query=S.R.+Electronics+And+Home+Appliances,+13-6-458,+Mehdipatnam,+Hyderabad+500006" target="_blank" rel="noopener" data-cursor="Go">Get directions <span class="arr">→</span></a>
+            <a class="btn ghost" href="tel:+919573162285">Call us</a>
+            <a class="btn ghost" data-enquire="">WhatsApp</a>
+          </div>
+        </div>
+        <div class="map rise">
+          <iframe title="Map showing S.R. Electronics &amp; Home Appliances in Mehdipatnam" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=S.R.%20Electronics%20And%20Home%20Appliances%2C%2013-6-458%2C%20Mehdipatnam%2C%20Hyderabad&amp;z=16&amp;output=embed"></iframe>
+          <span class="pin">S.R. Electronics</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot gut">
+  <div class="foot-big" aria-hidden="true">S.<em>R.</em></div>
+  <div class="wrap">
+    <div class="foot-grid">
+      <form class="news" id="news" novalidate>
+        <h4>Offers in your inbox</h4>
+        <p>New arrivals and festive offers, a few times a year.</p>
+        <div class="field"><input type="email" id="news-email" placeholder="Your email" aria-label="Email address" required><button type="submit">Sign up</button></div>
+        <label><input type="checkbox" id="news-consent" required> I agree to receive offers from S.R. Electronics &amp; Home Appliances and can unsubscribe any time.</label>
+        <span class="msg" id="news-msg" role="status"></span>
+      </form>
+      <div>
+        <h4>Shop</h4>
+        <ul><li><a href="#range">TVs</a></li><li><a href="#range">Soundbars &amp; speakers</a></li><li><a href="#range">Air conditioners</a></li><li><a href="#range">Refrigerators</a></li><li><a href="#range">Washing machines</a></li><li><a href="#range">Kitchen</a></li></ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul><li><a href="#services">Installation</a></li><li><a href="#services">Exchange</a></li><li><a href="#services">EMI options</a></li><li><a href="tel:+919573162285">Call +91 95731 62285</a></li><li><a href="tel:+917981139014">Call 079811 39014</a></li><li><a href="https://www.google.com/maps/search/?api=1&amp;query=S.R.+Electronics+And+Home+Appliances,+13-6-458,+Mehdipatnam,+Hyderabad+500006" target="_blank" rel="noopener">Get directions</a></li></ul>
+      </div>
+    </div>
+    <div class="legal"><img src="assets/sr-logo-dark.png" alt="S.R. Electronics &amp; Home Appliances" width="915" height="432"><span>© S.R. Electronics &amp; Home Appliances, Mehdipatnam, Hyderabad</span><span>Privacy policy · Terms</span></div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  var hasGsap = !!(window.gsap && window.ScrollTrigger);
+  // phones and tablets get a lighter version: no grain, no blurred glow, native scrolling
+  var lite = window.matchMedia('(pointer: coarse)').matches || window.innerWidth < 900;
+  if (lite) document.documentElement.classList.add('lite');
+  var clamp = function (v, a, b) { return Math.max(a === undefined ? 0 : a, Math.min(b === undefined ? 1 : b, v)); };
+  var seg = function (p, a, b) { return clamp((p - a) / (b - a)); };
+  var ease = function (t) { return t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; };
+  var lerp = function (a, b, t) { return a + (b - a) * t; };
+
+  /* ---------- WhatsApp enquiries ----------
+     SR's WhatsApp number: country code + number, digits only. */
+  var SR_WHATSAPP = '919573162285';
+  document.querySelectorAll('[data-enquire]').forEach(function (a) {
+    var item = a.dataset.enquire;
+    var msg = item
+      ? 'Hi S.R. Electronics, I’d like to enquire about ' + item + '. Please share the models available and prices.'
+      : 'Hi S.R. Electronics, I have a question.';
+    a.href = 'https://wa.me/' + SR_WHATSAPP + '?text=' + encodeURIComponent(msg);
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
+
+  /* ---------- Menu ---------- */
+  var menu = document.getElementById('menu'), menuBtn = document.getElementById('menu-btn'), menuLabel = document.getElementById('menu-label');
+  function setMenu(open) {
+    menu.classList.toggle('open', open);
+    menu.setAttribute('aria-hidden', String(!open));
+    menuBtn.setAttribute('aria-expanded', String(open));
+    menuLabel.textContent = open ? 'Close' : 'Menu';
+  }
+  menuBtn.addEventListener('click', function () { setMenu(!menu.classList.contains('open')); });
+  menu.addEventListener('click', function (e) { if (e.target.closest('a')) setMenu(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setMenu(false); });
+
+  /* ---------- Newsletter ---------- */
+  document.getElementById('news').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var email = document.getElementById('news-email'), ok = document.getElementById('news-consent').checked, msg = document.getElementById('news-msg');
+    if (!email.value || !email.checkValidity()) { msg.textContent = 'Enter a valid email address.'; return; }
+    if (!ok) { msg.textContent = 'Tick the box to agree to receive offers.'; return; }
+    msg.textContent = 'Thanks. You’re on the list.';
+    email.value = '';
+  });
+
+  /* ---------- Split text ---------- */
+  document.querySelectorAll('#hero-title .split-line').forEach(function (line) {
+    var target = line.querySelector('em') || line;
+    target.innerHTML = target.textContent.split('').map(function (c) { return c === ' ' ? ' ' : '<span class="ch">' + c + '</span>'; }).join('');
+  });
+  document.querySelectorAll('[data-split]').forEach(function (h) {
+    (function wrap(node) {
+      Array.prototype.slice.call(node.childNodes).forEach(function (n) {
+        if (n.nodeType === 3) {
+          var frag = document.createDocumentFragment();
+          n.textContent.split(/(\s+)/).forEach(function (part) {
+            if (!part) return;
+            if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(' ')); return; }
+            var w = document.createElement('span'); w.className = 'w';
+            var i = document.createElement('span'); i.textContent = part; w.appendChild(i); frag.appendChild(w);
+          });
+          node.replaceChild(frag, n);
+        } else if (n.nodeType === 1) { wrap(n); }
+      });
+    })(h);
+  });
+
+  /* =========================================================
+     PHOTO SHOWROOM
+     Real product photography, moved in 3D: the hero TV starts tilted back like a
+     cinema screen, each product wipes up over the last while the previous one sinks
+     back, a light sweep crosses each photo, and (on desktop) an ambient glow sits behind it.
+     Everything here is transform/opacity only, and a style is written only when it changes.
+     ========================================================= */
+  var story = document.getElementById('story');
+  var pin = story.querySelector('.story-pin');
+  var shots = Array.prototype.slice.call(document.querySelectorAll('.shot'));
+  var chaps = Array.prototype.slice.call(document.querySelectorAll('.chap'));
+  var railLinks = Array.prototype.slice.call(document.querySelectorAll('#rail a'));
+  var heroCopy = document.getElementById('hero-copy'), heroFoot = document.getElementById('hero-foot');
+  var statsEl = document.getElementById('stats'), statNums = statsEl.querySelectorAll('b'), rail = document.getElementById('rail');
+  var storyP = 0, pointer = { x: 0, y: 0, sx: 0, sy: 0 };
+  var CH0 = .2, CHW = .2;   // the hero takes the first 20% of the story; each product 20%
+  var L = {}, lastP = -1, lastPx = 99, lastPy = 99;
+
+  function css(el, prop, val) { if (el['_' + prop] !== val) { el['_' + prop] = val; el.style[prop] = val; } }
+  function f(n) { return Math.round(n * 1000) / 1000; }
+
+  function layoutStage() {
+    var W = pin.clientWidth, H = pin.clientHeight, wide = W > 760;
+    var hw = Math.min(W * (wide ? .66 : .92), 1200, H * (wide ? .44 : .26) * 16 / 9), hh = hw * 9 / 16;
+    L.hero = { x: (W - hw) / 2, y: wide ? H * .4 : H * .34, w: hw, h: hh };
+    var mw = Math.min(W * (wide ? .56 : .88), H * (wide ? .42 : .3) * 16 / 9), mh = mw * 9 / 16;
+    L.mid = { x: (W - mw) / 2, y: H * .15, w: mw, h: mh };
+    L.stage = wide ? { x: W * .47, y: H * .13, w: W * .53 - Math.max(20, W * .03), h: H * .72 }
+                   : { x: 16, y: H * .1, w: W - 32, h: H * .42 };
+    frameStage(true);
+  }
+  function mixR(a, b, t) { return { x: lerp(a.x, b.x, t), y: lerp(a.y, b.y, t), w: lerp(a.w, b.w, t), h: lerp(a.h, b.h, t) }; }
+
+  function frameStage(force) {
+    if (!L.stage) return;
+    var P = storyP, h = clamp(P / CH0);
+    if (!lite) { pointer.sx = lerp(pointer.sx, pointer.x, .07); pointer.sy = lerp(pointer.sy, pointer.y, .07); }
+    var px = f(pointer.sx), py = f(pointer.sy);
+    if (!force && P === lastP && px === lastPx && py === lastPy) return;   // nothing moved: skip the frame
+    lastP = P; lastPx = px; lastPy = py;
+    var reveals = shots.map(function (s, i) {
+      if (i === 0) return 1;
+      return ease(clamp(((P - (CH0 + i * CHW)) / CHW + .12) / .28));
+    });
+    shots.forEach(function (s, i) {
+      var local = (P - (CH0 + i * CHW)) / CHW;
+      var rev = reveals[i], cover = i < shots.length - 1 ? reveals[i + 1] : 0;
+      var on = rev > .001 && cover < .999;
+      css(s, 'visibility', on ? 'visible' : 'hidden');
+      if (!on) return;
+      var r = L.stage, tiltX = 0;
+      if (i === 0) {
+        r = mixR(mixR(L.hero, L.mid, ease(seg(h, .15, .45))), L.stage, ease(seg(h, .55, 1)));
+        tiltX = (1 - ease(seg(h, 0, .4))) * 14;        // starts leaning back like a cinema screen
+      }
+      css(s, 'width', Math.round(r.w) + 'px');
+      css(s, 'height', Math.round(r.h) + 'px');
+      css(s, 'transform', 'translate3d(' + Math.round(r.x) + 'px,' + Math.round(r.y - cover * r.h * .04) + 'px,0) perspective(1600px) rotateX(' + f(tiltX - py * 4) + 'deg) rotateY(' + f(px * 6) + 'deg) scale(' + f(1 - cover * .1) + ')');
+      // wipe up: the window slides up while the photo inside counter-slides, so it stays put
+      var off = f((1 - rev) * 100);
+      css(s.frame, 'transform', 'translateY(' + off + '%)');
+      css(s.slide, 'transform', 'translateY(' + (-off) + '%)');
+      css(s.dim, 'opacity', String(f(cover * .65)));
+      var drift = i === 0 ? h * .03 + Math.max(0, local) * .04 : clamp(local) * .05;
+      css(s.ph, 'transform', 'scale(' + f(1.04 + (1 - rev) * .16 + drift) + ') translate(' + f(-px * 1.2) + '%,' + f(-py * 1.2) + '%)');
+      if (s.amb) css(s.amb, 'opacity', String(f(rev * (1 - cover) * .55)));
+      var sw = i === 0 ? Math.max(seg(h, .02, .35) * (h < .5 ? 1 : 0), seg(local, .05, .45)) : seg(local, .08, .48);
+      css(s.sheen, 'transform', 'translateX(' + Math.round(lerp(-160, 360, sw)) + '%) skewX(-14deg)');
+      css(s.sheen, 'opacity', sw > 0 && sw < 1 ? '1' : '0');
+    });
+  }
+  shots.forEach(function (s) {
+    s.frame = s.querySelector('.frame'); s.slide = s.querySelector('.slide'); s.ph = s.querySelector('.ph');
+    s.sheen = s.querySelector('.sheen'); s.dim = s.querySelector('.dim'); s.amb = s.querySelector('.amb');
+    // the blurred glow is desktop-only; on phones it never even downloads
+    if (s.amb) { if (lite) { s.amb.remove(); s.amb = null; } else s.amb.src = s.amb.dataset.src; }
+  });
+
+  function setStats(v) {
+    statNums.forEach(function (b) {
+      var n = +b.dataset.n, d = +b.dataset.d || 0, x = n * v;
+      var txt = (d ? x.toFixed(d) : Math.round(x).toLocaleString('en-IN')) + (b.dataset.sup ? '<sup>' + b.dataset.sup + '</sup>' : '');
+      if (b._t !== txt) { b._t = txt; b.innerHTML = txt; }
+    });
+  }
+
+  function updateOverlays(P) {
+    var h = clamp(P / CH0);
+    css(heroCopy, 'opacity', String(f(1 - seg(h, .1, .38))));
+    css(heroCopy, 'transform', 'translateY(' + Math.round(-seg(h, .05, .4) * 60) + 'px)');
+    css(heroFoot, 'opacity', String(f(1 - seg(h, .05, .25))));
+    css(heroFoot, 'visibility', h > .3 ? 'hidden' : '');
+    css(statsEl, 'opacity', String(f(seg(h, .3, .5) * (1 - seg(h, .82, .98)))));
+    css(statsEl, 'transform', 'translateY(' + Math.round((1 - seg(h, .3, .5)) * 30) + 'px)');
+    setStats(ease(seg(h, .3, .6)));
+    var active = -1, narrow = window.innerWidth <= 760;
+    chaps.forEach(function (c, i) {
+      var local = (P - (CH0 + i * CHW)) / CHW;
+      var o = f(seg(local, .02, .16) * (i === chaps.length - 1 ? 1 : 1 - seg(local, .82, .96)));
+      css(c, 'opacity', String(o));
+      css(c, 'transform', (narrow ? '' : 'translateY(-50%) ') + 'translateY(' + Math.round((1 - o) * 26) + 'px)');
+      css(c, 'visibility', o > 0 ? 'visible' : 'hidden');
+      c.classList.toggle('on', o > .5);
+      if (o > .5) active = i;
+    });
+    css(rail, 'opacity', String(f(seg(P, CH0 - .02, CH0 + .04))));
+    railLinks.forEach(function (a, i) { a.classList.toggle('on', i === active); });
+  }
+
+  /* =========================================================
+     Motion: cursor, magnetic buttons, card spotlight
+     ========================================================= */
+  window.addEventListener('pointermove', function (e) {
+    pointer.x = e.clientX / innerWidth * 2 - 1; pointer.y = e.clientY / innerHeight * 2 - 1;
+  }, { passive: true });
+  if (fine && !reduce) {
+    document.documentElement.classList.add('has-cursor');
+    var cur = document.getElementById('cursor'), ringEl = document.getElementById('cursor-ring'), label = document.getElementById('cursor-label');
+    var cx = innerWidth / 2, cy = innerHeight / 2, rx = cx, ry = cy;
+    window.addEventListener('pointermove', function (e) { cx = e.clientX; cy = e.clientY; cur.style.opacity = ringEl.style.opacity = 1; }, { passive: true });
+    document.addEventListener('pointerleave', function () { cur.style.opacity = ringEl.style.opacity = 0; });
+    (function loop() {
+      rx = lerp(rx, cx, .18); ry = lerp(ry, cy, .18);
+      cur.style.transform = 'translate(' + cx + 'px,' + cy + 'px)';
+      ringEl.style.transform = 'translate(' + rx + 'px,' + ry + 'px)';
+      requestAnimationFrame(loop);
+    })();
+    document.addEventListener('pointerover', function (e) {
+      var t = e.target.closest('[data-cursor], a, button');
+      ringEl.classList.remove('big', 'link');
+      if (!t) return;
+      if (t.dataset.cursor) { label.textContent = t.dataset.cursor; ringEl.classList.add('big'); }
+      else ringEl.classList.add('link');
+    });
+    document.querySelectorAll('.magnetic').forEach(function (m) {
+      m.addEventListener('pointermove', function (e) {
+        var r = m.getBoundingClientRect();
+        m.style.transition = 'color .35s';
+        m.style.transform = 'translate(' + (e.clientX - (r.left + r.width / 2)) * .28 + 'px,' + (e.clientY - (r.top + r.height / 2)) * .38 + 'px)';
+      });
+      m.addEventListener('pointerleave', function () { m.style.transition = 'transform .6s cubic-bezier(.2,.8,.2,1), color .35s'; m.style.transform = ''; });
+    });
+  }
+  document.querySelectorAll('.svc').forEach(function (s) {
+    s.addEventListener('pointermove', function (e) {
+      var r = s.getBoundingClientRect();
+      s.style.setProperty('--mx', (e.clientX - r.left) + 'px'); s.style.setProperty('--my', (e.clientY - r.top) + 'px');
+    });
+  });
+
+  /* =========================================================
+     Boot
+     ========================================================= */
+  layoutStage();
+  // decode the product photos up front so the first wipe to each one doesn't stutter
+  window.addEventListener('load', function () { shots.forEach(function (sh) { if (sh.ph.decode) sh.ph.decode().catch(function () {}); }); });
+  var rzT; window.addEventListener('resize', function () { clearTimeout(rzT); rzT = setTimeout(layoutStage, 120); });
+
+  if (!hasGsap) {
+    document.getElementById('loader').remove();
+    updateOverlays(0);
+    requestAnimationFrame(function tick() { frameStage(); requestAnimationFrame(tick); });
+    return;
+  }
+  gsap.registerPlugin(ScrollTrigger);
+
+  var lenis = null;
+  if (window.Lenis && !reduce && !lite) {
+    lenis = new Lenis({ lerp: .085, smoothWheel: true });
+    lenis.on('scroll', ScrollTrigger.update);
+    gsap.ticker.add(function (t) { lenis.raf(t * 1000); });
+    gsap.ticker.lagSmoothing(0);
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      var id = a.getAttribute('href'); if (id.length < 2) return;
+      var el = document.querySelector(id); if (!el) return;
+      e.preventDefault();
+      if (lenis) lenis.scrollTo(el, { offset: id === '#top' ? 0 : -10, duration: 1.6 });
+      else el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth' });
+    });
+  });
+  railLinks.forEach(function (a, i) {
+    a.addEventListener('click', function () {
+      var y = story.offsetTop + (story.offsetHeight - innerHeight) * (CH0 + i * CHW + CHW * .45);
+      if (lenis) lenis.scrollTo(y, { duration: 1.4 }); else window.scrollTo({ top: y, behavior: reduce ? 'auto' : 'smooth' });
+    });
+  });
+
+  ScrollTrigger.create({ trigger: story, start: 'top top', end: 'bottom bottom', onUpdate: function (s) { storyP = s.progress; updateOverlays(storyP); } });
+  updateOverlays(0);
+
+  var storyVisible = true;
+  new IntersectionObserver(function (en) { storyVisible = en[0].isIntersecting; }).observe(story);
+  gsap.ticker.add(function () { if (storyVisible) frameStage(); });
+
+  var head = document.getElementById('head'), lastY = 0;
+  ScrollTrigger.create({ start: 0, end: 'max', onUpdate: function (s) {
+    gsap.set('#progress', { scaleX: s.progress });
+    var y = s.scroll();
+    head.classList.toggle('hide', y > lastY && y > 300 && !menu.classList.contains('open'));
+    head.classList.toggle('solid', y > 60);
+    lastY = y;
+  } });
+
+  if (reduce) {
+    document.getElementById('loader').remove();
+  } else {
+    /* ---------- intro ---------- */
+    if (lenis) lenis.stop();
+    var count = { v: 0 }, bootDone = false;
+    gsap.timeline()
+      .to('#loader-logo', { clipPath: 'inset(0 0% 0 0)', duration: 1.1, ease: 'power3.inOut' })
+      .to(count, { v: 100, duration: 1.3, ease: 'power2.inOut', onUpdate: function () {
+        document.getElementById('loader-count').textContent = String(Math.round(count.v)).padStart(3, '0');
+        gsap.set('#loader-bar', { scaleX: count.v / 100 });
+      } }, .1);
+    // two panels (red, then dark) sweep up over the loader, then carry on up to reveal the hero
+    var finishIntro = function () {
+      if (bootDone) return; bootDone = true;
+      gsap.set('#wipe-r, #wipe-d', { y: 0, yPercent: 100 });   // y: 0 drops the CSS translate so only yPercent moves them
+      gsap.timeline({ onComplete: function () { if (lenis) lenis.start(); } })
+        .to('.loader-in', { y: -30, opacity: 0, duration: .45, ease: 'power2.in' })
+        .to('#wipe-r', { yPercent: 0, duration: .55, ease: 'power3.inOut' }, '-=.1')
+        .to('#wipe-d', { yPercent: 0, duration: .55, ease: 'power3.inOut' }, '-=.35')
+        .set('#loader', { display: 'none' })
+        .to('#wipe-r', { yPercent: -100, duration: .8, ease: 'power3.inOut' })
+        .to('#wipe-d', { yPercent: -100, duration: .8, ease: 'power3.inOut' }, '-=.68')
+        .from('#hero-title .ch', { yPercent: 115, rotate: 6, duration: 1.1, ease: 'power4.out', stagger: .035 }, '-=.45')
+        .from('#hero-copy .label, #hero-foot', { opacity: 0, y: 20, duration: .8, ease: 'power3.out', stagger: .1 }, '-=.9')
+        .from('#head', { opacity: 0, duration: .8, ease: 'power2.out' }, '-=.8');   // opacity only: the header's transform belongs to hide-on-scroll
+    };
+    var minTime = new Promise(function (r) { setTimeout(r, lite ? 900 : 1500); });
+    var loaded = new Promise(function (r) { if (document.readyState === 'complete') r(); else window.addEventListener('load', r); });
+    Promise.all([minTime, Promise.race([loaded, new Promise(function (r) { setTimeout(r, 4000); })])]).then(finishIntro);
+  }
+
+  /* ---------- band marquee ---------- */
+  gsap.fromTo('#band-track', { xPercent: 0 }, { xPercent: -50, ease: 'none', scrollTrigger: { trigger: '.band', start: 'top bottom', end: 'bottom top', scrub: true } });
+
+  /* ---------- headings and cards rise in ---------- */
+  document.querySelectorAll('[data-split]').forEach(function (h) {
+    gsap.from(h.querySelectorAll('.w > span'), { yPercent: 110, duration: 1, ease: 'power4.out', stagger: .06, scrollTrigger: { trigger: h, start: 'top 88%' } });
+  });
+  gsap.utils.toArray('.rise').forEach(function (el, i) {
+    gsap.from(el, { y: 60, opacity: 0, duration: 1, ease: 'power3.out', delay: (i % 4) * .08, scrollTrigger: { trigger: el, start: 'top 92%' } });
+  });
+
+  /* ---------- range: horizontal scroll ---------- */
+  // desktop: scrolling down slides the row sideways; phones: a native swipe row that snaps card by card
+  var trackH = document.getElementById('track-h');
+  if (lite) {
+    var bar = document.getElementById('range-bar');
+    trackH.addEventListener('scroll', function () {
+      var max = trackH.scrollWidth - trackH.clientWidth;
+      bar.style.transform = 'scaleX(' + (max > 0 ? trackH.scrollLeft / max : 0) + ')';
+    }, { passive: true });
+  } else {
+    var hDist = function () { return Math.max(0, trackH.scrollWidth - innerWidth); };
+    var hTween = gsap.to(trackH, { x: function () { return -hDist(); }, ease: 'none',
+      scrollTrigger: { trigger: '#range-pin', start: 'top top', end: function () { return '+=' + hDist(); }, pin: true, scrub: 1, invalidateOnRefresh: true,
+        onUpdate: function (s) { gsap.set('#range-bar', { scaleX: s.progress }); } } });
+    gsap.utils.toArray('[data-par]').forEach(function (img) {
+      gsap.fromTo(img, { xPercent: -5 }, { xPercent: 5, ease: 'none', scrollTrigger: { trigger: img.closest('.card'), containerAnimation: hTween, start: 'left right', end: 'right left', scrub: true } });
+    });
+  }
+
+  /* ---------- how it works: line draws, steps light up ---------- */
+  var stepEls = document.querySelectorAll('.step');
+  ScrollTrigger.create({ trigger: '#steps', start: 'top 75%', end: 'bottom 55%', scrub: true,
+    onUpdate: function (s) {
+      var v = innerWidth <= 860;
+      gsap.set('#steps-line', v ? { scaleY: s.progress, scaleX: 1 } : { scaleX: s.progress, scaleY: 1 });
+      stepEls.forEach(function (st, i) { st.classList.toggle('lit', s.progress >= i / 4 + .02); });
+    } });
+
+  /* ---------- footer letters ---------- */
+  gsap.from('.foot-big', { yPercent: 30, opacity: 0, ease: 'none', scrollTrigger: { trigger: '.foot', start: 'top bottom', end: 'top 30%', scrub: true } });
+
+  window.addEventListener('load', function () { ScrollTrigger.refresh(); layoutStage(); });
+})();
+</script>
+</body>
+</html>
