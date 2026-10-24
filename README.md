@@ -20,4 +20,5 @@ python3 -m http.server 8765
 then open http://localhost:8765
 
 ## Publish
-Drag this folder onto the project's **Deploys** page on Netlify.
+Netlify deploys automatically from the `main` branch of this repo: push a change and it goes live in about a minute.
+Settings live in `netlify.toml` (static site, no build step).

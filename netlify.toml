@@ -1,0 +1,23 @@
+# Netlify settings: plain static site, no build step.
+[build]
+  publish = "."
+  command = ""
+
+# Logos and other files in /assets rarely change, so let browsers cache them.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# Don't serve the repo's housekeeping files on the live site.
+[[redirects]]
+  from = "/README.md"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/netlify.toml"
+  to = "/"
+  status = 301
+  force = true
